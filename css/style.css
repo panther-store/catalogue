@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: #dcd7d1;
+}
+
+.logo {
+    background: #393736;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    color: black;
+}
+.image-container {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.image-container img:first-of-type {
+    width: 100%;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.whatsapp-btn {    
+    position: fixed;
+    width: 59px;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    transform: translate(-16px, -3px);
+    z-index: 300;
+}
+
+.text-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: helvetica;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.text-info img{
+    width: 45px;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    font-family: arial !important;
+    margin-bottom: 0px;
+    border: solid 1px #b79265;
+}
